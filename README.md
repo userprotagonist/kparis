@@ -26,4 +26,6 @@ $ ./karis.sh
 - Rust
 - Alacritty
 - zsh
-- Customized dotfiles
+- [Customized dotfiles](https://github.com/kyli0x/kyricer)
+
+###[LICENSE](https://github.com/kyli0x/kparis/blob/master/LICENSE)
