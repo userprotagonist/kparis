@@ -15,6 +15,7 @@ $ ./karis.sh
 - Breeze-Cursor-Theme
 - Noto-fonts
 - Base-devel
+- Locate
 - Git
 - Pip3
 - Perl

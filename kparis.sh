@@ -25,6 +25,12 @@ sudo pacman --noconfirm -S papirus-icon-theme breeze noto-fonts
 CYAN "Installing base-devel"
 sudo pacman --noconfirm -S base-devel
 
+CYAN "Installing locate"
+sudo pacman --noconfirm -S mlocate
+
+CYAN "Updating db"
+sudo updatedb
+
 CYAN "Installing the git"
 sudo pacman --noconfirm -S git
 
