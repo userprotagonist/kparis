@@ -1,8 +1,8 @@
 ## KParis - Kyli0x's pacman auto ricing intallation script for Artix linux with xfce & openrc
-<br>
+<br><br>
 ### Install Manually:
 <b>Before running</b> replace `kyli0x:kyli0x` on line `43` to your personal user:group.
-<br>
+<br><br>
 <b>DO NOT</b> run `kparis.sh` with sudo.
 ```
 $ git clone https://github.com/kyli0x/kparis.git
