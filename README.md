@@ -28,4 +28,6 @@ $ ./karis.sh
 - zsh
 - [Customized dotfiles](https://github.com/kyli0x/kyricer)
 
-###[LICENSE](https://github.com/kyli0x/kparis/blob/master/LICENSE)
+<br><br>
+
+[LICENSE](https://github.com/kyli0x/kparis/blob/master/LICENSE)
