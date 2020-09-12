@@ -80,8 +80,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 CYAN "Installing & updating my personal dotfiles"
 git clone https://github.com/kyli0x/kyricer.git
 cd kyricer/
-chmod +x kyricer.sh
-./kyricer.sh
+chmod +x install.sh
+./install.sh
 cd ..
 rm -rf kyricer/
 cd
