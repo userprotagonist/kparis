@@ -43,6 +43,9 @@ sudo pacman --noconfirm -S perl
 CYAN "Installing vim"
 sudo pacman --noconfirm -S vim
 
+CYAN "Installing Wireshark"
+sudo pacman --noconfirm -S wireshark-qt
+
 CYAN "Installing yay"
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git

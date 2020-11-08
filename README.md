@@ -20,6 +20,7 @@ $ ./karis.sh
 - Pip3
 - Perl
 - Vim
+- Wireshark
 - Yay AUR Package Manager
 - OpenVPN-openrc
 - OpenVPN-update-resolv-conf-git
