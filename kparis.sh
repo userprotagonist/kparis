@@ -34,6 +34,9 @@ sudo updatedb
 CYAN "Installing the git"
 sudo pacman --noconfirm -S git
 
+CYAN "Installing Compression Tools"
+sudo pacman --noconfirm -S zip unzip unrar p7zip lzop
+
 CYAN "Installing pip3"
 sudo pacman --noconfirm -S python-pip
 
@@ -45,6 +48,9 @@ sudo pacman --noconfirm -S vim
 
 CYAN "Installing Wireshark"
 sudo pacman --noconfirm -S wireshark-qt
+
+CYAN "Installing Console Network Tools"
+sudo pacman --noconfirm -S traceroute nmap
 
 CYAN "Installing yay"
 cd /opt
@@ -75,10 +81,9 @@ CYAN "Installing Alacritty"
 sudo pacman --noconfirm -S alacritty
 
 # install zsh
-RED "Installing zsh - *DONT FORGET TO TYPE exit AFTER SEEING THE zsh PROMPT TO FINISH THE INSTALL*"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+sudo pacman --noconfirm -S zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugins/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugins/zsh-syntax-highlighting
 
 CYAN "Installing & updating my personal dotfiles"
 git clone https://github.com/kyli0x/kyricer.git
@@ -89,11 +94,26 @@ cd ..
 rm -rf kyricer/
 cd
 
-CYAN "removing pre-oh-my-zshrc if needed"
-rm -rf .zshrc.pre-oh-my-zsh
 
-CYAN "making zsh the default shell"
-chsh -s /bin/zsh 
 
-CYAN "Please re-log to update default shell or start using alacritty"
-exit
+
+
+Setting up Neovim:
+
+$ nvim ~/.config/nvim/vim-plug/plugins.vim
+$ :wq
+$ nvim plguins.vim
+PlugInstall
+$ :wq
+
+
+
+
+
+
+
+
+
+
+
+
