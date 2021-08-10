@@ -55,7 +55,7 @@ sudo pacman --noconfirm -S traceroute nmap
 CYAN "Installing yay"
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
-sudo chown -R kyli0x:kyli0x ./yay-git
+sudo chown -R konstantin:lazarus ./yay-git
 cd yay-git
 makepkg -si
 cd
